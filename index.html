@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee con Imagen y Texto</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        img {
+            width: 50px; /* Ajusta el tamaño según necesites */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="scroll" direction="left">
+        <div class="container">
+            <img src="https://via.placeholder.com/50" alt="Imagen">
+            <span>Este es un texto en movimiento</span>
+        </div>
+    </marquee>
+</body>
+</html>
